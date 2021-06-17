@@ -2,11 +2,15 @@
 %Nombre Del Alumno: Carlos Ricardo Vertiz
 %correo electronico: carlosricardovertiz@gmail.com
 %grupo: 3202
+%fecha: 17/06/2021
+%Descripcion: Script que funciona para encontrar el area bajo la curva
+%por medio del tema "medidas aproximada de figuras amorfas"
 clc
 clear
 
 syms x;
 %pide valores 
+disp("TE PEDIRA INICIALMENTE LOS VALORES EN DONDE TU SACARAS EL AREA APROX.")
 intervalo_a= input("valor de a: ");
 intervalo_b= input("valor de b: ");
 num_rectangulos=input("con cuantos rectangulos?: ");
@@ -36,4 +40,4 @@ end
 disp ("el area aproximado es de: ");
 acumulador
 
-%graficamos los rectangulos
+%OrgullosamenteTESJI<3
