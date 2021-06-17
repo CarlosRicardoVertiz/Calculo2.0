@@ -1,3 +1,4 @@
+  
 %Materia: Calculo Integral
 %Nombre Del Alumno: Carlos Ricardo Vertiz
 %correo electronico: carlosricardovertiz@gmail.com
@@ -11,11 +12,12 @@ clear
 syms x;
 %pide valores 
 disp("TE PEDIRA INICIALMENTE LOS VALORES EN DONDE TU SACARAS EL AREA APROX.")
+disp("la funcion no se como hacerla de manera dinamica, tendra que cambiarla usted")
 intervalo_a= input("valor de a: ");
 intervalo_b= input("valor de b: ");
 num_rectangulos=input("con cuantos rectangulos?: ");
 %aqui se encuentra la funcion
-funcion = inline("2^2-3*x+2");
+funcion = input("dame la funcion");
 %pricedimiento de base
 base= (intervalo_b-intervalo_a)/num_rectangulos;
 disp("BASE: ");
